@@ -1,0 +1,40 @@
+body {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.mainDiv {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainDiv div {
+    margin-bottom: 20px;
+}
+
+.winMsg {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.btn {
+    font-size: 2rem;
+    width: 150px;
+    font-weight: 600;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: violet;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
