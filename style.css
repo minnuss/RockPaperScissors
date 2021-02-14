@@ -16,6 +16,7 @@ body {
 }
 
 .winMsg {
+    text-align: center;
     font-weight: 700;
     font-size: 2.5rem;
 }
@@ -33,6 +34,7 @@ body {
     border-radius: 10px;
     outline: none;
     transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+    margin-bottom: 15px;
 }
 
 .btn:hover {
@@ -41,4 +43,19 @@ body {
 
 .btn:active {
     transform: scale(0.95);
+}
+
+@media (max-width: 1020px) {
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    .selected {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+    }
 }
