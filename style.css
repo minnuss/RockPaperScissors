@@ -20,6 +20,10 @@ body {
     font-size: 2.5rem;
 }
 
+.btns {
+    text-align: center;
+}
+
 .btn {
     font-size: 2rem;
     width: 150px;
